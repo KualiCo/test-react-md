@@ -1,3 +1,10 @@
+// index.scss
+@import '~normalize.css';
+@import 'kuali-rmd';
+
+// Include all components
+@include kuali-rmd-everything;
+
 @mixin host-material-icons($font-url: '/fonts/material-icons') {
   $icon-link: $font-url + '/MaterialIcons-Regular';
   @font-face {

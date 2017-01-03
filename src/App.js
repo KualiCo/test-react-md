@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import WebFontLoader from 'webfontloader';
 
-import './style/index.scss';
-import './style/app.scss'
+import './style/app.scss';
 import Autocomplete from 'react-md/lib/Autocompletes';
 import Avatar from 'react-md/lib/Avatars';
 import BottomNavigation from 'react-md/lib/BottomNavigations';

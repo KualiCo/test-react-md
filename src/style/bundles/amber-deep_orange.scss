@@ -1,0 +1,7 @@
+
+@import '../kuali-rmd';
+
+$md-primary-color: $md-amber-500;
+$md-secondary-color: $md-deep-orange-a-400;
+
+@include kuali-rmd-everything;
